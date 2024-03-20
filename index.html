@@ -1,29 +1,27 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8"/>
-    <link rel="icon" type="image/svg+xml" href="/test-login-interface-v2/assets/vite-DcBtz0py.svg"/>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-    <title>Vite + React + Routes</title>
-
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Login Interface</title>
     <script type="text/javascript">
-        (function (l) {
-            if (l.search[1] === "/") {
-                var decoded = l.search
-                    .slice(1)
-                    .split("&")
-                    .map(function (s) {
-                        return s.replace(/~and~/g, "&");
-                    })
-                    .join("?");
-                window.history.replaceState(null, null, l.pathname.slice(0, -1) + decoded + l.hash);
-            }
-        })(window.location);
+      (function (l) {
+        if (l.search[1] === '/') {
+          var decoded = l.search
+            .slice(1)
+            .split('&')
+            .map(function (s) {
+              return s.replace(/~and~/g, '&');
+            })
+            .join('?');
+          window.history.replaceState(null, null, l.pathname.slice(0, -1) + decoded + l.hash);
+        }
+      })(window.location);
     </script>
-  <script type="module" crossorigin src="/test-login-interface-v2/assets/index-D_A-OVXE.js"></script>
-  <link rel="stylesheet" crossorigin href="/test-login-interface-v2/assets/index-DZhFCgQu.css">
-</head>
-<body>
-<div id="root"></div>
-</body>
+    <script type="module" crossorigin src="/assets/index-Cz5DgOJm.js"></script>
+    <link rel="stylesheet" crossorigin href="/assets/index-CnEi4tl1.css">
+  </head>
+  <body>
+    <div id="root"></div>
+  </body>
 </html>
